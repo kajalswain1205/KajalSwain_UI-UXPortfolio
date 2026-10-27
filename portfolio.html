@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kajal Swain | Aspiring UI/UX Designer, Bhubaneswar</title>
+<meta name="description" content="Portfolio of Kajal Swain, an aspiring UI/UX designer and CSIT graduate from Bhubaneswar who builds responsive interfaces and is growing into design. Open to entry-level roles and internships.">
+<meta name="theme-color" content="#FBF6EE">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="mark" href="#top" aria-label="Kajal Swain, home">Kajal Swain</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero wrap" id="top">
+  <div class="hero-copy">
+    <p class="kicker">Aspiring UI/UX designer with a developer’s mindset</p>
+    <h1>Thoughtful design. Useful experiences.</h1>
+    <p class="lead">I’m Kajal, a computer science graduate from Bhubaneswar. I’ve spent my internships building responsive interfaces, and I want to spend my career deciding what those interfaces should do and how they should feel.</p>
+    <div class="actions">
+      <a class="btn primary" href="#work">See selected work</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+
+  <figure class="hero-art" aria-label="Illustration of a rough wireframe becoming a finished screen">
+    <div class="phone wire" aria-hidden="true">
+      <i class="w w1"></i><i class="w w2"></i><i class="w w3"></i><i class="w w4"></i><i class="w w5"></i>
+    </div>
+    <div class="phone ui" aria-hidden="true">
+      <span class="ui-city">Bhubaneswar</span>
+      <span class="ui-temp">31°</span>
+      <span class="ui-desc">Partly cloudy</span>
+      <div class="ui-row"><b></b><b></b><b></b><b></b></div>
+      <div class="ui-card"></div>
+    </div>
+    <figcaption>Sketch to screen: the part of the work I most want to do. Illustrative, not a real project.</figcaption>
+  </figure>
+</section>
+
+<section class="section wrap" id="about" aria-labelledby="about-h">
+  <h2 id="about-h">About</h2>
+  <div class="about-grid">
+    <p class="big">I finished my B.Tech in Computer Science &amp; Information Technology at GITA, Bhubaneswar, in 2026.</p>
+    <div class="stack">
+      <p>Across three internships I built responsive HTML, CSS and JavaScript interfaces and the Python back ends behind them. Working in code reviews taught me how designers and developers misunderstand each other, and how a clear explanation fixes most of it.</p>
+      <p>I’m now moving toward UI/UX design. I’m practising wireframing, user flows and visual layout, and I can prototype ideas in HTML, CSS and JavaScript. I haven’t held a design title yet, and this site is honest about that.</p>
+      <p class="muted">Languages: English, Hindi, Odia.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="work" aria-labelledby="work-h">
+  <h2 id="work-h">Selected work</h2>
+  <p class="section-note">These are real development projects. Each one is paired with a <strong>UX opportunity</strong>, an idea for how I’d redesign it. The opportunities are proposals, not completed or tested work. The mockups are illustrative CSS drawings, not screenshots.</p>
+
+  <div class="cards">
+    <article class="card">
+      <div class="mock m-weather" role="img" aria-label="Illustrative mockup of a weather screen with a current temperature and forecast list">
+        <span class="mt">28°</span><span class="ms">Current</span>
+        <div class="bars"><i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i><i style="height:80%"></i><i style="height:55%"></i></div>
+      </div>
+      <h3>Weather Application</h3>
+      <p class="stack-tags">HTML · CSS · JavaScript</p>
+      <p>A responsive app that calls an external weather API to show current conditions, temperature and forecasts.</p>
+      <div class="ux">
+        <h4>UX opportunity</h4>
+        <p>Forecast information hierarchy: decide what someone needs first (now, today, this week), reduce competing numbers, and design clear loading and error states.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="mock m-chat" role="img" aria-label="Illustrative mockup of a chat conversation with a fallback message">
+        <span class="b l"></span><span class="b r"></span><span class="b l short"></span><span class="b fb"></span>
+      </div>
+      <h3>Chatbot</h3>
+      <p class="stack-tags">Python · JSON</p>
+      <p>A chatbot with a JSON knowledge base that uses pattern matching to generate responses across multiple query scenarios.</p>
+      <div class="ux">
+        <h4>UX opportunity</h4>
+        <p>Conversation design and fallback states: help users know what the bot can do, recover gracefully when it doesn’t understand, and offer a path forward.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="mock m-sent" role="img" aria-label="Illustrative mockup of a sentiment result with positive, neutral and negative labels">
+        <span class="chip pos">Positive</span><span class="chip neu">Neutral</span><span class="chip neg">Negative</span>
+        <div class="meter"><i></i></div>
+      </div>
+      <h3>Sentiment Analysis System</h3>
+      <p class="stack-tags">Python · NLP · Machine Learning</p>
+      <p>A system that uses NLP preprocessing and machine-learning algorithms to classify text as positive, negative or neutral.</p>
+      <div class="ux">
+        <h4>UX opportunity</h4>
+        <p>Making results understandable: explain what a label means, show how sure the system is without false precision, and let non-technical people act on the result.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section wrap" id="case-study" aria-labelledby="cs-h">
+  <h2 id="cs-h">Case-study framework</h2>
+  <p class="notice" role="note"><strong>Proposed design exercise.</strong> None of the stages below have been completed yet. This is the structure I will follow when I redesign one of the projects above, and I’ll replace this section with real findings once they exist.</p>
+  <ol class="cs-list">
+    <li><h3>Problem</h3><p>The specific difficulty a person has with the current screen.</p></li>
+    <li><h3>Intended users</h3><p>Who this is for and in what situation.</p></li>
+    <li><h3>Assumptions to validate</h3><p>What I believe but haven’t yet checked.</p></li>
+    <li><h3>User flow</h3><p>The path from first tap to finished task.</p></li>
+    <li><h3>Wireframes</h3><p>Low-fidelity layouts to compare structure.</p></li>
+    <li><h3>Visual design</h3><p>Type, color, spacing and states.</p></li>
+    <li><h3>Prototype</h3><p>A clickable version to test with.</p></li>
+    <li><h3>Feedback</h3><p>Notes from a few real people trying it.</p></li>
+    <li><h3>Iterations</h3><p>What changed and why.</p></li>
+    <li><h3>What I learned</h3><p>What I would do differently next time.</p></li>
+  </ol>
+</section>
+
+<section class="section wrap" id="process" aria-labelledby="process-h">
+  <h2 id="process-h">Design process</h2>
+  <p class="section-note">This is how I aim to work. It isn’t a claim that I’ve completed every step on every project.</p>
+  <ol class="steps">
+    <li><span class="n">1</span><h3>Understand</h3><p>Ask who it’s for and what they’re trying to do. Write down assumptions so they can be checked.</p></li>
+    <li><span class="n">2</span><h3>Structure</h3><p>Map the user flow and sketch wireframes before choosing colors, so the layout carries the logic.</p></li>
+    <li><span class="n">3</span><h3>Explore</h3><p>Try more than one direction, then build a prototype in Figma or in code.</p></li>
+    <li><span class="n">4</span><h3>Validate</h3><p>Run a lightweight usability test, watch where people hesitate, fix it, and explain the decision to the team.</p></li>
+  </ol>
+</section>
+
+<section class="section wrap" id="skills" aria-labelledby="skills-h">
+  <h2 id="skills-h">Skills and tools</h2>
+  <div class="skills">
+    <div class="panel">
+      <h3>Confident today</h3>
+      <p class="muted">Used in internships and projects</p>
+      <ul class="tags">
+        <li>HTML5</li><li>CSS3</li><li>Responsive web design</li><li>JavaScript</li><li>Python</li><li>C</li><li>Django</li><li>Django REST Framework</li><li>RESTful APIs</li><li>MySQL</li><li>SQL</li><li>Django ORM</li><li>pytest</li><li>Unit testing</li><li>Git &amp; GitHub</li>
+      </ul>
+    </div>
+    <div class="panel soft">
+      <h3>Learning and practising</h3>
+      <p class="muted">UX skills I’m building, not claiming mastery of</p>
+      <ul class="tags">
+        <li>Figma (learning)</li><li>Wireframing</li><li>User flows</li><li>Prototyping</li><li>Lightweight usability testing</li><li>Accessibility basics</li><li>Design-system thinking</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted pad">Strengths I bring: working with developers, reading code reviews without flinching, and explaining decisions plainly.</p>
+</section>
+
+<section class="section wrap" id="experience" aria-labelledby="exp-h">
+  <h2 id="exp-h">Experience</h2>
+  <ol class="timeline">
+    <li>
+      <h3>Full Stack Developer Intern, StaxTech</h3>
+      <p class="when">Remote · June 2025 – July 2025</p>
+      <p>Built responsive HTML, CSS and JavaScript interfaces with dynamic client-side behavior, wrote Python scripts for data processing and automation, and collaborated through Git and GitHub.</p>
+    </li>
+    <li>
+      <h3>Python Full Stack Intern, Seeree</h3>
+      <p class="when">Bhubaneswar · January 2025 – July 2025</p>
+      <p>Built responsive HTML/CSS interfaces and JavaScript interactions, developed Python back-end features with MySQL, worked in Git and GitHub, and took part in code reviews.</p>
+    </li>
+    <li>
+      <h3>Python Intern, Central Tool Room &amp; Training Centre (CTTC)</h3>
+      <p class="when">Bhubaneswar · May 2024 – June 2024</p>
+      <p>Developed RESTful APIs with Django REST Framework, wrote unit tests with pytest, and handled database operations with Django ORM.</p>
+    </li>
+  </ol>
+</section>
+
+<section class="section wrap" id="education" aria-labelledby="edu-h">
+  <h2 id="edu-h">Education and certifications</h2>
+  <div class="edu">
+    <div>
+      <h3>B.Tech, Computer Science &amp; Information Technology</h3>
+      <p>Gandhi Institute for Technological Advancement (GITA), Bhubaneswar</p>
+      <p class="when">November 2022 – June 2026 · CGPA 7.1/10</p>
+    </div>
+    <div>
+      <h3>Certifications</h3>
+      <ul class="plain">
+        <li>Foundations: Data, Data, Everywhere (Google, Coursera)</li>
+        <li>Introduction to Data Analytics (Coursera)</li>
+        <li>Introduction to Generative AI (Coursera)</li>
+        <li>Deloitte Australia Cyber Security Analyst Job Simulation</li>
+        <li>Deloitte Australia Data Analytics Job Simulation</li>
+        <li>BCG Generative AI Job Simulation</li>
+        <li>Tata Group Cybersecurity Analyst Job Simulation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap contact" id="contact" aria-labelledby="contact-h">
+  <h2 id="contact-h">Let’s talk</h2>
+  <p class="big">I’m looking for an entry-level UI/UX role or internship, and I’m happy to collaborate on student or early-stage projects. Tell me what you’re working on.</p>
+  <ul class="contact-list">
+    <li><a class="btn primary" href="mailto:kajalswain215@gmail.com">Email kajalswain215@gmail.com</a></li>
+    <li><a class="btn" href="https://www.linkedin.com/in/kajal-swain" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr"> (opens in a new tab)</span></a></li>
+    <li><a class="btn" href="https://github.com/kajalswain1205" target="_blank" rel="noopener noreferrer">GitHub<span class="sr"> (opens in a new tab)</span></a></li>
+  </ul>
+  <p class="muted">Phone: <a href="tel:+917735582060">+91-7735582060</a> · Bhubaneswar, Odisha, India</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year">2026</span> Kajal Swain. Designed and built by hand with HTML, CSS and JavaScript.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
